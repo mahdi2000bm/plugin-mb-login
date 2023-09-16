@@ -1,12 +1,4 @@
 <?php
-/**
- * Plugin Name: MB Login & Register
- * Description: Custom login and register.
- * Author: mhdibaqri
- * Version: 1.0.0
- * License: MIT
- * Author URI: https://github.com/mahdi2000bm
- */
 
 defined('ABSPATH') || exit;
 

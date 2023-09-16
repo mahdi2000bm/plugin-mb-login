@@ -56,7 +56,7 @@ class App
 
         //JS
         wp_register_script('toast-js', 'https://cdn.jsdelivr.net/npm/toastify-js', ['jquery'], '1.0.0', 'true');
-        wp_register_script('mb-main-js', MB_PLUGIN_URL . 'assets/js/front/main.js', ['jquery'], '1.0.0', 'true');
+        wp_register_script('mb-main-js', MB_PLUGIN_URL . 'assets/js/front/global.js', ['jquery'], '1.0.0', 'true');
 
         wp_enqueue_script('mb-ajax-js', MB_PLUGIN_URL . 'assets/js/front/ajax.js', ['jquery'], rand(0,999), 'true');
 

@@ -5,6 +5,7 @@
  * @return void
  */
 function get_mb_header() { ?>
+<link rel="stylesheet" href="<?= MB_PLUGIN_URL . 'assets/css/bootstrap.css' ?>">
 <link rel="stylesheet" href="<?= MB_PLUGIN_URL . 'assets/css/style.css' ?>">
 <?php } ?>
 

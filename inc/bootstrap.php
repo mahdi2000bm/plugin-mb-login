@@ -13,6 +13,7 @@ function mb_register_assets()
 }
 
 // Register hooks
-add_action('wp_enqueue_scripts', 'mb_register_assets');
+// add_action('wp_enqueue_scripts', 'mb_register_assets');
 
 require_once MB_PLUGIN_DIR . 'inc/view.php';
+require_once MB_PLUGIN_DIR . 'inc/auth.php';

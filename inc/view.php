@@ -15,6 +15,6 @@ function get_mb_header() { ?>
  * @return void
  */
 function get_mb_footer() { ?>
-<script src="<?= MB_PLUGIN_URL . 'assets/js/global.js' ?>" />
-<script src="<?= MB_PLUGIN_URL . 'assets/js/ajax.js' ?>" />
+<script src="<?= MB_PLUGIN_URL . 'assets/js/global.js' ?>" > </script>
+<script src="<?= MB_PLUGIN_URL . 'assets/js/ajax.js' ?>" > </script>
 <?php } ?>

@@ -21,6 +21,9 @@ section.auth {
     font-weight: 900;
     font-family: cursive;
 }
+.card {
+    border: unset;
+}
 @media (max-width: 1279px) {
     .logo {
         left: 135px }}

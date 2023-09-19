@@ -1,3 +1,6 @@
+body {
+    background: url("https://hub.iranserver.com/templates/seven-2021/build/assets/img/login-new.png") no-repeat fixed 0 0;
+}
 section.auth {
     display: flex;
     -ms-flex-align: center!important;

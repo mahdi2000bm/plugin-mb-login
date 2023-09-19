@@ -15,6 +15,12 @@ section.auth {
     top: calc(50vh - 20px);
     left: 223px;
 }
+.logo span {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: cursive;
+}
 @media (max-width: 1279px) {
     .logo {
         left: 135px }}

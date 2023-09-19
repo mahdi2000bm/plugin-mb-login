@@ -1,5 +1,5 @@
 body {
-    background: url("https://hub.iranserver.com/templates/seven-2021/build/assets/img/login-new.png") no-repeat fixed 0 0;
+    background: url("/wp-content/uploads/2023/09/auth-bg.png") no-repeat fixed 0 0;
 }
 section.auth {
     display: flex;

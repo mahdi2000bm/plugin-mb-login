@@ -13,7 +13,7 @@ section.auth {
     justify-content: space-around;
 }
 @media (max-width: 992px) {
-    .page-login-v2 {
+    .body {
         background-size: cover;
     }
 }

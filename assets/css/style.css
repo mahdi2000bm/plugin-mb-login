@@ -35,6 +35,8 @@
     src: url("../fonts/iranyekanregular.eot") format("embedded-opentype"),
     url("../fonts/iranyekanregular.woff") format("woff"),
     url("../fonts/iranyekanregular.ttf") format("truetype") }
+* {
+    font-family: Yekan }
 body {
     background: url("/wp-content/uploads/2023/09/auth-bg.png") no-repeat fixed 0 0 }
 section.auth {

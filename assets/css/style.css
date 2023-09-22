@@ -83,7 +83,8 @@ section.auth {
 }
 .label, label {
     color: #667494!important;
-    font-size: .75rem!important;
+    font-size: .875rem!important;
+    padding-right: 0.5rem!important;
     font-weight: 400;
 }
 .heading h2 {

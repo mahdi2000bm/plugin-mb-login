@@ -1,5 +1,42 @@
+/**
+ * Custom style auth page template MB-PLUGIN
+ */
+
+@font-face{
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src:url("../fonts/YekanBakhHeavy.eot");
+    src:url("../fonts/YekanBakhHeavy.eot") format("embedded-opentype"),
+    url("../fonts/YekanBakhHeavy.woff") format("woff") }
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight:700;
+    font-display: swap;
+    src: url("../fonts/YekanBakhMedium.eot");
+    src: url("../fonts/YekanBakhBold.eot") format('embedded-opentype'),
+    url("../fonts/YekanBakhBold.woff") format('woff') }
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight:500;
+    font-display: swap;
+    src: url("../fonts/YekanBakhMedium.eot");
+    src: url("../fonts/YekanBakhMedium.eot") format('embedded-opentype'),
+    url("../fonts/YekanBakhMedium.woff") format('woff') }
+@font-face {
+    font-family: Yekan;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/iranyekanregular.eot");
+    src: url("../fonts/iranyekanregular.eot") format("embedded-opentype"),
+    url("../fonts/iranyekanregular.woff") format("woff"),
+    url("../fonts/iranyekanregular.ttf") format("truetype") }
 body {
-    background: url("/wp-content/uploads/2023/09/auth-bg.png") no-repeat fixed 0 0; }
+    background: url("/wp-content/uploads/2023/09/auth-bg.png") no-repeat fixed 0 0 }
 section.auth {
     display: flex;
     -ms-flex-align: center!important;

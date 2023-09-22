@@ -69,4 +69,13 @@ section.auth {
 @media (max-width: 992px) {
     body {
         background-size: cover }}
-.fw-black{font-weight:900!important}
+
+.fw-black {
+    font-weight:900!important }
+.form-control {
+    border: 2px solid #e9ebef!important
+}
+.form-control:focus {
+    color: #212529;
+    box-shadow: unset;
+}

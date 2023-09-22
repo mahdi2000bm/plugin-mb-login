@@ -79,3 +79,8 @@ section.auth {
     color: #212529;
     box-shadow: unset;
 }
+.label, label {
+    color: #667494!important;
+    font-size: .75rem!important;
+    font-weight: 400;
+}

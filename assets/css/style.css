@@ -73,7 +73,9 @@ section.auth {
 .fw-black {
     font-weight:900!important }
 .form-control {
-    border: 2px solid #e9ebef!important
+    border: 2px solid #e9ebef!important;
+    padding: 0.5rem 1rem!important;
+    font-size: 14px;
 }
 .form-control:focus {
     color: #212529;
@@ -83,4 +85,7 @@ section.auth {
     color: #667494!important;
     font-size: .75rem!important;
     font-weight: 400;
+}
+.heading h2 {
+    color: #364163;
 }

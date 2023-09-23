@@ -53,7 +53,7 @@ function response(targetId, type, message) {
     if (type === 400) {
         jQuery("#" + targetId).addClass('error')
     } else if (type === 200) {
-        jQuery("#" + targetId).addClass('error')
+        jQuery("#" + targetId).removeClass('error')
     }
 }
 

@@ -1,6 +1,4 @@
 jQuery(document).ready(function($)
 {
-    $('#checkLoginRegister').on('click', function (event){
-        alert(event);
-    });
+    $('#checkLoginRegister').on('click', authType(event));
 })

@@ -306,5 +306,7 @@ jQuery(document).ready(function ($) {
             },
         });
     });
-
 })
+function authType(event) {
+    alert(event);
+}

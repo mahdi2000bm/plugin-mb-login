@@ -51,9 +51,9 @@ function validateEmail (email) {
 
 function response(targetId, type, message) {
     if (type === 400) {
-        $("#" + targetId).addClass('error')
+        jQuery("#" + targetId).addClass('error')
     } else if (type === 200) {
-        $("#" + targetId).addClass('error')
+        jQuery("#" + targetId).addClass('error')
     }
 }
 

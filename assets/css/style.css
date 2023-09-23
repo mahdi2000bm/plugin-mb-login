@@ -90,3 +90,7 @@ section.auth {
 .heading h2 {
     color: #364163;
 }
+a {
+    color: unset;
+    text-decoration: unset;
+}

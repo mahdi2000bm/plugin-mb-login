@@ -307,6 +307,9 @@ jQuery(document).ready(function ($) {
         });
     });
 })
-function authType(event) {
-    alert(event);
+
+function authMail(event) {
+    event.preventDefault();
+
+    let mailOrPhone = $('#inputEmailPhone').val();
 }

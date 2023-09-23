@@ -11,5 +11,5 @@
 defined("ABSPATH") || exit();
 
 // Bootstrap
-require_once MB_PLUGIN_DIR . "inc/boot.php";
+require_once __DIR__ . "/inc/boot.php";
 

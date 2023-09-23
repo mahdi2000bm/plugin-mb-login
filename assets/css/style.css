@@ -98,3 +98,10 @@ input[type=email].valid-error, input[type=number].valid-error, input[type=passwo
     color: #e42154!important;
     border: 0.125rem solid #e42154!important;
 }
+.error-accepttos, .error-text {
+    color: #e42154!important;
+    font-size: .625rem;
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}

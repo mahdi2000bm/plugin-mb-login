@@ -51,9 +51,11 @@ function validateEmail (email) {
 
 function response(targetId, type, message) {
     if (type === 400) {
-        jQuery("#" + targetId).addClass('valid-error')
+        jQuery("#" + targetId).addClass('valid-error');
+        jQuery(".error-text").removeClass('fade');
     } else if (type === 200) {
-        jQuery("#" + targetId).removeClass('valid-error')
+        jQuery("#" + targetId).removeClass('valid-error');
+        jQuery(".error-text").removeClass('fade');
     }
 }
 

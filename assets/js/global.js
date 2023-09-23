@@ -55,7 +55,7 @@ function response(targetId, type, message) {
         jQuery(".error-text").removeClass('fade');
     } else if (type === 200) {
         jQuery("#" + targetId).removeClass('valid-error');
-        jQuery(".error-text").removeClass('fade');
+        jQuery(".error-text").addClass('fade');
     }
 }
 

@@ -13,17 +13,20 @@ jQuery(document).ready(function($)
 
     function validateInput (input, type, require = false) {
 
+        // returned status
         let validate = {
             "status" : true,
-            "message" : true,
+            "message" : "",
         };
 
+        // Input require but user dont enter
         if (require && input === "") {
             validate.status = false;
-            validate.message = "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
+            validate.message = "مقدار نمی تواند خالی باشد.";
             return validate
         }
 
+        // Validate input by input type
         switch (type) {
             case "EmailPhone":
                     if (validateEmail(input) === null) {

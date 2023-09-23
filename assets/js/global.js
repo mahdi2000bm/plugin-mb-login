@@ -3,7 +3,7 @@ jQuery(document).ready(function($)
     $('#inputEmailPhone').on('keyup', function () {
         let input = $(this).val();
         let validate = validateInput(input, "EmailPhone", true);
-        console.log(validate)
+        response("inputEmailPhone", validate.status, validate.message);
     });
 
     $('#checkLoginRegister').on('click', event => {
@@ -16,13 +16,13 @@ function validateInput (input, type, require = false) {
 
     // returned status
     let validate = {
-        "status" : true,
+        "status" : 200,
         "message" : "",
     };
 
     // Input require but user dont enter
     if (require && input === "") {
-        validate.status = false;
+        validate.status = 400;
         validate.message = "مقدار نمی تواند خالی باشد.";
         return validate
     }
@@ -31,7 +31,7 @@ function validateInput (input, type, require = false) {
     switch (type) {
         case "EmailPhone":
             if (validateEmail(input) === null) {
-                validate.status = false;
+                validate.status = 400;
                 validate.message = "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
             }
             break;
@@ -47,6 +47,12 @@ function validateEmail (email) {
     return String(email).toLowerCase().match(
             /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     );
+}
+
+function response(targetId, type, message) {
+    if (type === 200) {
+        $("#" + targetId).addClass('error')
+    }
 }
 
 function authType(input) {

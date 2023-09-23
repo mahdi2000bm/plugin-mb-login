@@ -94,3 +94,7 @@ a {
     color: unset;
     text-decoration: unset;
 }
+input[type=email].valid-error, input[type=number].valid-error, input[type=password].valid-error, input[type=search].valid-error, input[type=text].valid-error, select.valid-error {
+    color: #e42154!important;
+    border: 0.125rem solid #e42154!important;
+}

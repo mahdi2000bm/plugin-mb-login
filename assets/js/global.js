@@ -1,7 +1,7 @@
 jQuery(document).ready(function($)
 {
-    $('#inputEmailPhone').on('keyup', event => {
-        console.log(event)
+    $('#inputEmailPhone').on('keyup', function () {
+        console.log($(this).val())
     });
 
     $('#checkLoginRegister').on('click', event => {

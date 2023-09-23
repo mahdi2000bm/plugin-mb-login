@@ -13,21 +13,30 @@ jQuery(document).ready(function($)
 
     function validateInput (input, type, require = false) {
 
+        let validate = {
+            "status" : true,
+            "message" : true,
+        };
+
         if (require && input === "") {
-            return "مقدار نمی تواند خالی باشد";
+            validate.status = false;
+            validate.message = "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
+            return validate
         }
 
         switch (type) {
             case "EmailPhone":
-                    let validate = validateEmail(input);
-                    if (validate === null)
-                        return "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
+                    if (validateEmail(input) === null) {
+                        validate.status = false;
+                        validate.message = "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
+                    }
                 break;
-            case "":
-                break;
-            case "":
+            case "Email":
+                validate = validateEmail(input);
                 break;
         }
+
+        return validate;
     }
 
     function authType(input) {

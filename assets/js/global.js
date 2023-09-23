@@ -16,10 +16,14 @@ jQuery(document).ready(function($)
         if (require) {
             if (input === "")
                 return "خالی است";
+
+            console.log("in if")
         }
+
 
         switch (type) {
             case "EmailPhone":
+                    console.log("up swith")
                     return validateEmail(input);
                 break;
             case "":

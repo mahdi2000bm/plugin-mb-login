@@ -10,9 +10,6 @@
 
 defined("ABSPATH") || exit();
 
-// Define constants
-define('MB_PLUGIN_DIR', plugin_dir_path(__FILE__));
-define('MB_PLUGIN_URL', plugin_dir_url(__FILE__));
-
-require_once MB_PLUGIN_DIR . "inc/bootstrap.php";
+// Bootstrap
+require_once MB_PLUGIN_DIR . "inc/boot.php";
 

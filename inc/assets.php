@@ -1,6 +1,16 @@
 <?php
 
-// Enqueue scripts for front user
+/**
+ * This document Enqueue scripts & assets
+ */
+
+defined("ABSPATH") || exit();
+
+/**
+ * Registration of assets on the user side
+ *
+ * @return void
+ */
 function mb_register_assets()
 {
     wp_register_style('mb-auth-global', MB_PLUGIN_URL . 'assets/css/style.css', "", '1.0.0');
@@ -13,7 +23,4 @@ function mb_register_assets()
 }
 
 // Register hooks
-// add_action('wp_enqueue_scripts', 'mb_register_assets');
-
-require_once MB_PLUGIN_DIR . 'inc/view.php';
-require_once MB_PLUGIN_DIR . 'inc/auth.php';
+ add_action('wp_enqueue_scripts', 'mb_register_assets');

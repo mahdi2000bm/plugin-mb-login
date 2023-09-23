@@ -13,18 +13,15 @@ jQuery(document).ready(function($)
 
     function validateInput (input, type, require = false) {
 
-        if (require) {
-            if (input === "")
-                return "خالی است";
-
-            console.log("in if")
+        if (require && input === "") {
+            return "مقدار نمی تواند خالی باشد";
         }
-
 
         switch (type) {
             case "EmailPhone":
-                    console.log("up swith")
-                    return validateEmail(input);
+                    let validate = validateEmail(input);
+                    if (validate === null)
+                        return "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
                 break;
             case "":
                 break;

@@ -9,6 +9,7 @@ defined("ABSPATH") || exit();
  * Prerequisites document
  */
 // Server side
+require_once MB_PLUGIN_DIR . 'inc/helper.php';
 require_once MB_PLUGIN_DIR . 'inc/controller.php';
 
 // User side

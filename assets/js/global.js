@@ -110,7 +110,7 @@ function authType(input) {
         method: "POST",
         dataType: "JSON",
         data: {
-            test: "test"
+            action: "mb_login_via_email"
         }
     })
 }

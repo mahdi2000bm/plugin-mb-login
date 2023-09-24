@@ -9,7 +9,7 @@ jQuery(document).ready(function($)
     $('#checkLoginRegister').on('click', event => {
         let mailOrPhone = $('#inputEmailPhone').val();
         let validate = validateInput(mailOrPhone, "EmailPhone", true);
-        if (validate.status) {
+        if (validate.status === 200) {
             authType(mailOrPhone);
         } else {
             responseView("inputEmailPhone", validate.status, validate.message);

@@ -32,7 +32,7 @@ function mb_check_nonce () {
 	return false;
 }
 
-function response( int $status ) {
+function mb_response( int $status ) {
 	$message = match ( $status ) {
 		403 => "دسترسی رد شد.",
 		200 => "موفقیت آمیز بود.",

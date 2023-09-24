@@ -124,3 +124,6 @@ input[type=email].valid-error, input[type=number].valid-error, input[type=passwo
         transform: rotate(1turn)
     }
 }
+.fade.in {
+    opacity: 1;
+}

@@ -1,6 +1,6 @@
 <?php
 /**
- * This document handles requests
+ * This document handles wp_ajax requests
  */
 
 defined("ABSPATH") || exit();

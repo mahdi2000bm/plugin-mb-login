@@ -13,6 +13,6 @@ function mb_login_via_email() {
 	wp_send_json($email, 200);
 }
 function mb_login_via_phone() {
-	$phone = $_POST['phone'];
+	$phone = $_POST['input'];
 	wp_send_json($phone, 200);
 }

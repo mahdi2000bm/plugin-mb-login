@@ -10,8 +10,8 @@ defined("ABSPATH") || exit();
  *
  * @return false|string
  */
-function mb_sanitize( $value, $type ) {
-	return match ( $type ) {
+function mb_sanitize($value, $type) {
+	return match ($type) {
 		"text" => sanitize_text_field( $value ),
 		"email" => sanitize_email( $value ),
 		default => false,
@@ -32,13 +32,20 @@ function mb_check_nonce () {
 	return false;
 }
 
-function mb_response( int $status ) {
-	$message = match ( $status ) {
+function mb_response($status, $action) {
+
+	$message = match ($status) {
 		403 => "دسترسی رد شد.",
 		200 => "موفقیت آمیز بود.",
 		401 => "مقادیر ورودی نادرست است.",
 		default => 'خطای ناشناس.',
 	};
 
-	wp_send_json( $message, $status );
+	$response = [
+		"status" => $status,
+		"action" => $action,
+		"message" => $message
+	];
+
+	wp_send_json($response, $status);
 }

@@ -305,7 +305,7 @@ jq(document).ready(function ($) {
         });
     });
 })
-function mbAjaxEmail() {
+function mbAjaxEmail(input) {
     jq.ajax({
         url: mb_ajax.ajaxurl,
         method: "POST",
@@ -313,10 +313,12 @@ function mbAjaxEmail() {
         data: {
             action: "mb_login_via_email",
             _nonce: mb_ajax._nonce,
+            input: input,
+            remember_me : true
         }
     })
 }
-function mbAjaxPhone() {
+function mbAjaxPhone(input) {
     jq.ajax({
         url: mb_ajax.ajaxurl,
         method: "POST",
@@ -324,6 +326,8 @@ function mbAjaxPhone() {
         data: {
             action: "mb_login_via_phone",
             _nonce: mb_ajax._nonce,
+            input: input,
+            remember_me : true
         }
     })
 }

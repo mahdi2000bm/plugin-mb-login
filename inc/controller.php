@@ -12,6 +12,7 @@ function mb_login_via_email() {
 	if (mb_check_nonce())
 		response(403);
 
+	response(200);
 }
 function mb_login_via_phone() {
 	$phone = $_POST['input'];

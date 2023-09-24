@@ -105,3 +105,14 @@ input[type=email].valid-error, input[type=number].valid-error, input[type=passwo
     -webkit-font-feature-settings: "ss02";
     font-feature-settings: "ss02";
 }
+.is-loading-state {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    border: 0.125rem solid hsla(0,0%,100%,.8588235294117647);
+    border-top-color: transparent;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    display: flex;
+    margin: 0.375rem auto;
+}

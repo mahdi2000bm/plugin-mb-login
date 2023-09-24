@@ -14,7 +14,7 @@ function mbAjaxEmail(input) {
             remember_me : true
         },
         beforeSend: function () {
-            jq('#checkLoginRegister').addClass('is-loading-state');
+            jq('#checkLoginRegister').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
             if (response.success) {

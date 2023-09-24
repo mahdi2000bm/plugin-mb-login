@@ -3,12 +3,17 @@ jQuery(document).ready(function($)
     $('#inputEmailPhone').on('keyup', function () {
         let input = $(this).val();
         let validate = validateInput(input, "EmailPhone", true);
-        response("inputEmailPhone", validate.status, validate.message);
+        responseView("inputEmailPhone", validate.status, validate.message);
     });
 
     $('#checkLoginRegister').on('click', event => {
         let mailOrPhone = $('#inputEmailPhone').val();
-        authType(mailOrPhone);
+        let validate = validateInput(mailOrPhone, "EmailPhone", true);
+        if (validate.status) {
+            authType(mailOrPhone);
+        } else {
+            responseView("inputEmailPhone", validate.status, validate.message);
+        }
     });
 })
 
@@ -30,8 +35,6 @@ function validateInput (input, type, require = false) {
     // Validate input by input type
     switch (type) {
         case "EmailPhone":
-            console.log(validatePhone(input))
-            console.log(validateEmail(input))
             if (validateEmail(input) === null && validatePhone(input) === null) {
                 validate.status = 400;
                 validate.message = "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
@@ -57,7 +60,7 @@ function validatePhone (mobile) {
     );
 }
 
-function response(targetId, type, message) {
+function responseView(targetId, type, message) {
     if (type === 400) {
         jQuery("#" + targetId).addClass('valid-error');
         jQuery(".error-text").text(message);

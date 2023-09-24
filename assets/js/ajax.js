@@ -18,14 +18,9 @@ function mbAjaxEmail(input) {
         },
         success: function (response) {
             console.log(response)
+
             if (response.success) {
                 console.log(response.message)
-
-                Toastify({
-                    text: response.message,
-                    className: "success",
-                    duration: 2000,
-                }).showToast();
 
                 setTimeout(function () {
                     window.location.href = document.documentURI;
@@ -33,15 +28,14 @@ function mbAjaxEmail(input) {
             }
         },
         error: function (error) {
-            if (error.responseJSON.error) {
-                jq('#checkLoginRegister').html('<span class="is-loading-state"></span>');
+            console.log(response)
 
+            if (error.responseJSON.error) {
                 Toastify({
                     text: error.responseJSON.message,
                     className: "error",
                     duration: 2000,
                 }).showToast();
-
             }
         },
         complete: function () {

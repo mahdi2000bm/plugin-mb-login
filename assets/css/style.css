@@ -105,7 +105,6 @@ input[type=email].valid-error, input[type=number].valid-error, input[type=passwo
     -webkit-font-feature-settings: "ss02";
     font-feature-settings: "ss02";
 }
-
 .is-loading-state {
     border-radius: 50%;
     width: 1rem;
@@ -117,8 +116,6 @@ input[type=email].valid-error, input[type=number].valid-error, input[type=passwo
     display: flex;
     margin: 0.25rem auto;
 }
-
-
 @keyframes spin {
     0% {
         transform: rotate(0deg)

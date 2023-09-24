@@ -31,14 +31,19 @@ function mbAjaxEmail(input) {
         },
         error: function (error) {
             if (error.responseJSON.error) {
+                jq('#checkLoginRegister').html('<span class="is-loading-state"></span>');
+
                 Toastify({
                     text: error.responseJSON.message,
                     className: "error",
                     duration: 2000,
                 }).showToast();
+
             }
         },
-        complete: function () {},
+        complete: function () {
+            jq('#checkLoginRegister').html('ورود');
+        },
     })
 }
 function mbAjaxPhone(input) {

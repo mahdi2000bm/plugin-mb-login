@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+jq(document).ready(function($) {
     // When user enter phone or email address
     $('#inputEmailPhone').on('keyup', function () {
         let input = $(this).val();
@@ -89,12 +89,12 @@ function validatePhone (mobile) {
  */
 function responseView(targetId, type, message) {
     if (type === 400) {
-        jQuery("#" + targetId).addClass('valid-error');
-        jQuery(".error-text").text(message);
-        jQuery(".error-text").removeClass('fade');
+        jq("#" + targetId).addClass('valid-error');
+        jq(".error-text").text(message);
+        jq(".error-text").removeClass('fade');
     } else if (type === 200) {
-        jQuery("#" + targetId).removeClass('valid-error');
-        jQuery(".error-text").addClass('fade');
+        jq("#" + targetId).removeClass('valid-error');
+        jq(".error-text").addClass('fade');
     }
 }
 
@@ -105,7 +105,7 @@ function responseView(targetId, type, message) {
  * @param input
  */
 function authType(input) {
-    jQuery.ajax({
+    jq.ajax({
         url: mb_ajax.ajaxurl,
         method: "POST",
         dataType: "JSON",

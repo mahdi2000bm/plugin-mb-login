@@ -1,4 +1,5 @@
-jQuery(document).ready(function ($) {
+let jq = jQuery.noConflict();
+jq(document).ready(function ($) {
     $('#mb_login_form').on('submit', function (e) {
         e.preventDefault();
         let email = $('#mb_mail').val();

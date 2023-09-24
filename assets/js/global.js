@@ -30,7 +30,9 @@ function validateInput (input, type, require = false) {
     // Validate input by input type
     switch (type) {
         case "EmailPhone":
-            if (validateEmail(input) === null) {
+            console.log(validatePhone(input))
+            console.log(validateEmail(input))
+            if (validateEmail(input) === null && validatePhone(input) === null) {
                 validate.status = 400;
                 validate.message = "لطفا ایمیل یا شماره را به صورت کامل و صحیح وارد کنید.";
             }
@@ -46,6 +48,12 @@ function validateInput (input, type, require = false) {
 function validateEmail (email) {
     return String(email).toLowerCase().match(
             /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+}
+
+function validatePhone (mobile) {
+    return String(mobile).toLowerCase().match(
+        /((0?9)|(\+?989))\d{9}/g
     );
 }
 

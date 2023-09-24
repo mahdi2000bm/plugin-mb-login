@@ -46,7 +46,6 @@ jq(document).ready(function ($) {
             },
         });
     });
-
     $('body').on('click', '#send_code', function (e) {
         e.preventDefault();
         let el = $(this);
@@ -204,7 +203,6 @@ jq(document).ready(function ($) {
             },
         });
     });
-
     $('#send_recovery_mail').on('click', function (e) {
         e.preventDefault();
         let el = $(this);
@@ -255,7 +253,6 @@ jq(document).ready(function ($) {
             },
         });
     });
-
     $('#change_password').on('click', function (e) {
         e.preventDefault();
         let new_password = $('.new_password').val();
@@ -308,3 +305,14 @@ jq(document).ready(function ($) {
         });
     });
 })
+function mbAjaxEmailPhone() {
+    jq.ajax({
+        url: mb_ajax.ajaxurl,
+        method: "POST",
+        dataType: "JSON",
+        data: {
+            action: "mb_login_via_email",
+            _nonce: mb_ajax._nonce,
+        }
+    })
+}

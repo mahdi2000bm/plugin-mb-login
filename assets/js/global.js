@@ -44,11 +44,11 @@ function validateInput (input, type, require = false) {
     switch (type) {
         case "EmailPhone":
             if (validatePhone(input) !== null) {
-                validate.type = "email";
+                validate.type = "phone";
                 break;
             }
             if (validateEmail(input) !== null) {
-                validate.type = "phone";
+                validate.type = "email";
                 break;
             }
 
@@ -115,5 +115,4 @@ function responseView(targetId, type, message) {
  */
 function authType(input,type) {
     console.log(type)
-
 }

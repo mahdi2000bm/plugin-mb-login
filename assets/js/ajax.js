@@ -14,7 +14,7 @@ function mbAjaxEmail(input) {
             remember_me : true
         },
         beforeSend: function () {
-            $('#lr-loading').html('<div class="lds-facebook"><div></div><div></div><div></div></div>');
+            $('#checkLoginRegister').html('<div class="lds-facebook"><div></div><div></div><div></div></div>');
         },
         success: function (response) {
             if (response.success) {

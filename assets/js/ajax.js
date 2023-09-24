@@ -18,6 +18,8 @@ function mbAjaxEmail(input) {
         },
         success: function (response) {
             if (response.success) {
+                console.log(response.message)
+
                 Toastify({
                     text: response.message,
                     className: "success",

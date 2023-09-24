@@ -22,7 +22,7 @@ function get_mb_footer() {  ?>
 <?php $mb_ajax = [
     // Localizes ajax and nonce
     'ajaxurl' => admin_url('admin-ajax.php'),
-    '_nonce' => wp_create_nonce() ] ?>
+    '_nonce' => "sfk" ] ?>
 <script> let mb_ajax = <?= json_encode($mb_ajax) ?></script>
 <script src="<?= MB_PLUGIN_URL . 'assets/js/ajax.js' ?>"></script>
 <script id="global-auth" src="<?= MB_PLUGIN_URL . 'assets/js/global.js' ?>"></script>

@@ -19,5 +19,5 @@ function get_mb_header() { ?>
  */
 function get_mb_footer() { ?>
 <script src="<?= MB_PLUGIN_URL . 'assets/js/ajax.js' ?>"></script>
-<script src="<?= MB_PLUGIN_URL . 'assets/js/global.js' ?>"></script>
+<script id="global-auth" src="<?= MB_PLUGIN_URL . 'assets/js/global.js' ?>"></script>
 <?php } ?>

@@ -13,8 +13,10 @@ defined("ABSPATH") || exit();
  */
 function mb_register_assets()
 {
+	wp_enqueue_script('mb-ajax-js', MB_PLUGIN_URL . 'assets/js/global.js', ['jquery'], '', 'true');
+
 	// Works only if the `mb-ajax-js` has already been registered.
-	wp_localize_script('mb-ajax', 'mb_ajax', [
+	wp_localize_script('mb-ajax-js', 'mb_ajax', [
 		'ajaxurl' => admin_url('admin-ajax.php'),
 		'_nonce' => wp_create_nonce()
 	]);

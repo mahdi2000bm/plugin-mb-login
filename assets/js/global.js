@@ -125,3 +125,8 @@ function authType(input,type) {
             // toast error
     }
 }
+
+function showNextSectionStep(fade, active) {
+    jq("#" + fade).removeClass('in active');
+    jq("#" + active).addClass('in active');
+}

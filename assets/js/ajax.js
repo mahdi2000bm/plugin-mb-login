@@ -17,15 +17,7 @@ function mbAjaxEmail(input) {
             jq('#checkLoginRegister').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
-            console.log(response)
-
-            if (response.success) {
-                console.log(response.message)
-
-                setTimeout(function () {
-                    window.location.href = document.documentURI;
-                }, 2000);
-            }
+            showNextSectionStep("home", "login-tab");
         },
         error: function (error) {
             console.log(response)

@@ -25,9 +25,10 @@ function mb_sanitize( $value, $type ) {
  */
 function mb_check_nonce () {
 	$nonce = $_POST["_nonce"] ?? "";
-	return wp_verify_nonce(  $nonce );
+
 	if (wp_verify_nonce(  $nonce ))
 		return true;
+
 	return false;
 }
 

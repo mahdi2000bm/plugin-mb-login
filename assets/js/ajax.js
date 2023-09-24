@@ -17,6 +17,7 @@ function mbAjaxEmail(input) {
             jq('#checkLoginRegister').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
+            console.log(response)
             if (response.success) {
                 console.log(response.message)
 

@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
         responseView("inputEmailPhone", validate.status, validate.message);
     });
     // When user click on continue
-    $('#checkLoginRegister').on('click', event => {
+    $('#checkLoginRegister').on('click', function () {
         let mailOrPhone = $('#inputEmailPhone').val();
         let validate = validateInput(mailOrPhone, "EmailPhone", true);
         if (validate.status === 200) {
@@ -105,5 +105,12 @@ function responseView(targetId, type, message) {
  * @param input
  */
 function authType(input) {
-    console.log(input);
+    jQuery.ajax({
+        url: mb_ajax.ajaxurl,
+        method: "POST",
+        dataType: "JSON",
+        data: {
+            test: test
+        }
+    })
 }

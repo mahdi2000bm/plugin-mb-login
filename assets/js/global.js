@@ -110,7 +110,7 @@ function authType(input) {
         method: "POST",
         dataType: "JSON",
         data: {
-            test: test
+            test: "test"
         }
     })
 }

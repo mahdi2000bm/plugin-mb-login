@@ -114,5 +114,14 @@ function responseView(targetId, type, message) {
  * @param type
  */
 function authType(input,type) {
-    console.log(type)
+    switch (type) {
+        case "email":
+            mbAjaxEmail(input);
+            break;
+        case "phone":
+            mbAjaxPhone(input);
+            break;
+        default:
+            // toast error
+    }
 }

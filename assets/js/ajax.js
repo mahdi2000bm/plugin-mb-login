@@ -305,13 +305,24 @@ jq(document).ready(function ($) {
         });
     });
 })
-function mbAjaxEmailPhone() {
+function mbAjaxEmail() {
     jq.ajax({
         url: mb_ajax.ajaxurl,
         method: "POST",
         dataType: "JSON",
         data: {
             action: "mb_login_via_email",
+            _nonce: mb_ajax._nonce,
+        }
+    })
+}
+function mbAjaxPhone() {
+    jq.ajax({
+        url: mb_ajax.ajaxurl,
+        method: "POST",
+        dataType: "JSON",
+        data: {
+            action: "mb_login_via_phone",
             _nonce: mb_ajax._nonce,
         }
     })

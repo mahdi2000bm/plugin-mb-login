@@ -25,7 +25,7 @@ function mbAjaxEmail(input) {
                     case "password":
                         showNextSectionStep("home", "login-tab");
                         break;
-                    case "otp":
+                    case "otp": پ
                         //
                         break;
                 }

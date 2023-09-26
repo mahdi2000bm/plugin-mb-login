@@ -43,9 +43,11 @@ function mb_login_via_password() {
 		'remember' => true
 	];
 
-	$logged = wp_signon($certs, false);
+	$sign_status = wp_signon($certs, false);
 
-	wp_send_json($logged, 403);
+	$error = is_wp_error($sign_status);
+
+	wp_send_json($error, 403);
 }
 
 function mb_login_via_phone() {

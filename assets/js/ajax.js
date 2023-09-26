@@ -1,6 +1,5 @@
-let jq = jQuery.noConflict();
-
 "use strict";
+let jq = jQuery.noConflict();
 
 function mbAjaxEmail(input) {
     jq.ajax({

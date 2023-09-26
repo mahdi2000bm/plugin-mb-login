@@ -5,6 +5,7 @@ jq(document).ready(function($) {
         let validate = validateInput(input, "EmailPhone", true);
         responseView("inputEmailPhone", validate.status, validate.message);
     });
+
     // When user click on continue
     $('#checkLoginRegister').on('click', function () {
         let mailOrPhone = $('#inputEmailPhone').val();
@@ -14,6 +15,11 @@ jq(document).ready(function($) {
         } else {
             responseView("inputEmailPhone", validate.status, validate.message);
         }
+    });
+
+    // When user submit password
+    $('form.login-form').on('submit', function () {
+        console.log(this)
     });
 })
 
@@ -126,6 +132,12 @@ function authType(input,type) {
     }
 }
 
+/**
+ * Hides one section and shows the other
+ *
+ * @param fade
+ * @param active
+ */
 function showNextSectionStep(fade, active) {
     jq("#" + fade).removeClass('in active');
     jq("#" + active).addClass('in active');

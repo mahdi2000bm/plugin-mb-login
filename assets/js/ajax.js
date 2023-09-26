@@ -86,7 +86,7 @@ function mbAjaxPhone(input) {
     })
 }
 
-function mbAjaxLogin(input) {
+function mbAjaxLogin(email, password) {
     jq.ajax({
         url: mb_ajax.ajaxurl,
         method: "POST",
@@ -94,7 +94,8 @@ function mbAjaxLogin(input) {
         data: {
             action: "mb_login_via_password",
             _nonce: mb_ajax._nonce,
-            input: input,
+            email: email,
+            password: password,
             remember_me : true
         },
         beforeSend: function () {

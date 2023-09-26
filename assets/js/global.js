@@ -149,10 +149,12 @@ jq(document).ready(function($) {
     $('form.login-form').on('submit', function (event) {
         event.preventDefault();
 
+        let email = $('#inputEmailPhone').val();
         let password = $('#inputPassword').val();
+
         let validate = validateInput(password, "password", true);
         if (validate.status === 200) {
-            mbAjaxLogin(password);
+            mbAjaxLogin(email, password);
         } else {
             responseView("inputPassword", validate.status, validate.message);
         }

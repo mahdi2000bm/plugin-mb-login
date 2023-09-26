@@ -20,11 +20,14 @@ jq(document).ready(function($) {
     // When user submit password
     $('form.login-form').on('submit', function (event) {
         event.preventDefault();
+
         let password = $('#inputPassword').val();
-
         let validate = validateInput(password, "password", true);
-
-        console.log(validate)
+        if (validate.status === 200) {
+            authType(mailOrPhone, validate.type);
+        } else {
+            responseView("inputPassword", validate.status, validate.message);
+        }
     });
 })
 
@@ -41,7 +44,7 @@ function validateInput (input, type, require = false) {
     // returned status
     let validate = {
         "status" : 200,
-        "message" : "",
+        "message" : "اعتبار سنجی موفق.",
     };
 
     // Input require but user dont enter

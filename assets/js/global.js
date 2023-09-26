@@ -18,7 +18,9 @@ jq(document).ready(function($) {
     });
 
     // When user submit password
-    $('form.login-form').on('submit', function () {
+    $('form.login-form').on('submit', function (event) {
+        event.preventDefault();
+
         console.log(this)
     });
 })

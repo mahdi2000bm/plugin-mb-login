@@ -20,8 +20,11 @@ jq(document).ready(function($) {
     // When user submit password
     $('form.login-form').on('submit', function (event) {
         event.preventDefault();
+        let password = $('#inputPassword').val();
 
-        console.log(this)
+        let validate = validateInput(password, "password", true);
+
+        console.log(validate)
     });
 })
 

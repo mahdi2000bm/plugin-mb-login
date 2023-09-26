@@ -79,7 +79,7 @@ section.auth {
 }
 .form-control:focus {
     color: #212529;
-    box-shadow: unset;
+    box-shadow: unset !important;
 }
 .label, label {
     color: #667494!important;

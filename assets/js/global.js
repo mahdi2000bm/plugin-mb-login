@@ -31,7 +31,7 @@ jq(document).ready(function($) {
         let password = $('#inputPassword').val();
         let validate = validateInput(password, "password", true);
         if (validate.status === 200) {
-            //
+            mbAjaxLogin(password);
         } else {
             responseView("inputPassword", validate.status, validate.message);
         }

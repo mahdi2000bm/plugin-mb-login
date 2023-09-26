@@ -24,7 +24,7 @@ function mbAjaxEmail(input) {
                     case "password":
                         showNextSectionStep("home", "login-tab");
                         break;
-                    case "otp": پ
+                    case "otp":
                         //
                         break;
                 }
@@ -59,6 +59,46 @@ function mbAjaxPhone(input) {
         },
         beforeSend: function () {
             $('#lr-loading').html('<div class="lds-facebook"><div></div><div></div><div></div></div>');
+        },
+        success: function (response) {
+            if (response.success) {
+                Toastify({
+                    text: response.message,
+                    className: "success",
+                    duration: 2000,
+                }).showToast();
+
+                setTimeout(function () {
+                    window.location.href = document.documentURI;
+                }, 2000);
+            }
+        },
+        error: function (error) {
+            if (error.responseJSON.error) {
+                Toastify({
+                    text: error.responseJSON.message,
+                    className: "error",
+                    duration: 2000,
+                }).showToast();
+            }
+        },
+        complete: function () {},
+    })
+}
+
+function mbAjaxLogin(input) {
+    jq.ajax({
+        url: mb_ajax.ajaxurl,
+        method: "POST",
+        dataType: "JSON",
+        data: {
+            action: "mb_login_via_password",
+            _nonce: mb_ajax._nonce,
+            input: input,
+            remember_me : true
+        },
+        beforeSend: function () {
+            //
         },
         success: function (response) {
             if (response.success) {

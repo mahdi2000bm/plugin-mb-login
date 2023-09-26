@@ -6,6 +6,13 @@ jq(document).ready(function($) {
         responseView("inputEmailPhone", validate.status, validate.message);
     });
 
+    // When user enter password
+    $('#inputPassword').on('keyup', function () {
+        let input = $(this).val();
+        let validate = validateInput(input, "password", true);
+        responseView("inputPassword", validate.status, validate.message);
+    });
+
     // When user click on continue
     $('#checkLoginRegister').on('click', function () {
         let mailOrPhone = $('#inputEmailPhone').val();
@@ -24,7 +31,7 @@ jq(document).ready(function($) {
         let password = $('#inputPassword').val();
         let validate = validateInput(password, "password", true);
         if (validate.status === 200) {
-            authType(mailOrPhone, validate.type);
+            //
         } else {
             responseView("inputPassword", validate.status, validate.message);
         }

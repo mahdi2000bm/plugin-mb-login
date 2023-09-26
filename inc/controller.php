@@ -44,7 +44,8 @@ function mb_login_via_password() {
 	];
 
 	$logged = wp_signon($certs, false);
-	print_r($logged);
+
+	wp_send_json($logged, 403);
 }
 
 function mb_login_via_phone() {

@@ -1,43 +1,3 @@
-jq(document).ready(function($) {
-    // When user enter phone or email address
-    $('#inputEmailPhone').on('keyup', function () {
-        let input = $(this).val();
-        let validate = validateInput(input, "EmailPhone", true);
-        responseView("inputEmailPhone", validate.status, validate.message);
-    });
-
-    // When user enter password
-    $('#inputPassword').on('keyup', function () {
-        let input = $(this).val();
-        let validate = validateInput(input, "password", true);
-        responseView("inputPassword", validate.status, validate.message);
-    });
-
-    // When user click on continue
-    $('#checkLoginRegister').on('click', function () {
-        let mailOrPhone = $('#inputEmailPhone').val();
-        let validate = validateInput(mailOrPhone, "EmailPhone", true);
-        if (validate.status === 200) {
-            authType(mailOrPhone, validate.type);
-        } else {
-            responseView("inputEmailPhone", validate.status, validate.message);
-        }
-    });
-
-    // When user submit password
-    $('form.login-form').on('submit', function (event) {
-        event.preventDefault();
-
-        let password = $('#inputPassword').val();
-        let validate = validateInput(password, "password", true);
-        if (validate.status === 200) {
-            mbAjaxLogin(password);
-        } else {
-            responseView("inputPassword", validate.status, validate.message);
-        }
-    });
-})
-
 /**
  * Validates the input and returns the response in json format
  *
@@ -157,3 +117,44 @@ function showNextSectionStep(fade, active) {
     jq("#" + fade).removeClass('in active');
     jq("#" + active).addClass('in active');
 }
+
+// Listening to user behaviors
+jq(document).ready(function($) {
+    // When user enter phone or email address
+    $('#inputEmailPhone').on('keyup', function () {
+        let input = $(this).val();
+        let validate = validateInput(input, "EmailPhone", true);
+        responseView("inputEmailPhone", validate.status, validate.message);
+    });
+
+    // When user enter password
+    $('#inputPassword').on('keyup', function () {
+        let input = $(this).val();
+        let validate = validateInput(input, "password", true);
+        responseView("inputPassword", validate.status, validate.message);
+    });
+
+    // When user click on continue
+    $('#checkLoginRegister').on('click', function () {
+        let mailOrPhone = $('#inputEmailPhone').val();
+        let validate = validateInput(mailOrPhone, "EmailPhone", true);
+        if (validate.status === 200) {
+            authType(mailOrPhone, validate.type);
+        } else {
+            responseView("inputEmailPhone", validate.status, validate.message);
+        }
+    });
+
+    // When user submit password
+    $('form.login-form').on('submit', function (event) {
+        event.preventDefault();
+
+        let password = $('#inputPassword').val();
+        let validate = validateInput(password, "password", true);
+        if (validate.status === 200) {
+            mbAjaxLogin(password);
+        } else {
+            responseView("inputPassword", validate.status, validate.message);
+        }
+    });
+})

@@ -45,9 +45,8 @@ function mb_login_via_password() {
 
 	$sign_status = wp_signon($certs, false);
 
-	$error = is_wp_error($sign_status);
-
-	wp_send_json($error, 403);
+	if (! is_wp_error($sign_status))
+		wp_send_json("logged in", 200);
 }
 
 function mb_login_via_phone() {

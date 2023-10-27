@@ -58,7 +58,7 @@ function mbAjaxPhone(input) {
             remember_me : true
         },
         beforeSend: function () {
-            jq('#lr-loading').html('<div class="lds-facebook"><div></div><div></div><div></div></div>');
+            jq('#checkLoginRegister').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
             if (response.success) {

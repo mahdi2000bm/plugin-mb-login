@@ -12,9 +12,9 @@ defined("ABSPATH") || exit();
  */
 function mb_sanitize($value, $type) {
 	return match ($type) {
-		"text" => sanitize_text_field( $value ),
-		"email" => sanitize_email( $value ),
-		default => false,
+		"text" => sanitize_text_field($value),
+		"email" => sanitize_email($value),
+		default => false
 	};
 }
 
@@ -26,7 +26,7 @@ function mb_sanitize($value, $type) {
 function mb_check_nonce () {
 	$nonce = $_POST["_nonce"] ?? "";
 
-	if (wp_verify_nonce(  $nonce ))
+	if (wp_verify_nonce($nonce))
 		return true;
 
 	return false;

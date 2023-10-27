@@ -6,15 +6,20 @@
 defined("ABSPATH") || exit();
 
 add_action('wp_ajax_nopriv_mb_login_via_email', "mb_login_via_email");
-add_action('wp_ajax_nopriv_mb_login_via_password', "mb_login_via_password");
 add_action('wp_ajax_nopriv_mb_login_via_phone', "mb_login_via_phone");
+add_action('wp_ajax_nopriv_mb_login_via_password', "mb_login_via_password");
 
+/**
+ * Checked user isset by email
+ *
+ * @return void
+ */
 function mb_login_via_email() {
 	if (! mb_check_nonce())
 		mb_response(403, false);
 
 	$email = $_POST['input'] ?? "";
-	$email = mb_sanitize( $email, "email" );
+	$email = mb_sanitize($email, "email");
 
 	$user = get_user_by_email($email);
 	if (! $user)
@@ -22,7 +27,10 @@ function mb_login_via_email() {
 
 	mb_response(200, "password");
 }
-
+function mb_login_via_phone() {
+	$phone = $_POST['input'];
+	wp_send_json($phone, 200);
+}
 function mb_login_via_password() {
 	if (! mb_check_nonce())
 		mb_response(403, false);
@@ -46,11 +54,9 @@ function mb_login_via_password() {
 	$sign_status = wp_signon($certs, false);
 
 	if (! is_wp_error($sign_status))
-		wp_send_json("logged in", 200);
+		wp_send_json(json_encode($sign_status), 200);
+
+	wp_send_json(json_encode($sign_status), 200);
 }
 
-function mb_login_via_phone() {
-	$phone = $_POST['input'];
-	wp_send_json($phone, 200);
-}
 

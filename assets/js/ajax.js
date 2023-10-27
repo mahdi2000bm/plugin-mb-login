@@ -58,7 +58,7 @@ function mbAjaxPhone(input) {
             remember_me : true
         },
         beforeSend: function () {
-            $('#lr-loading').html('<div class="lds-facebook"><div></div><div></div><div></div></div>');
+            jq('#lr-loading').html('<div class="lds-facebook"><div></div><div></div><div></div></div>');
         },
         success: function (response) {
             if (response.success) {
@@ -85,7 +85,6 @@ function mbAjaxPhone(input) {
         complete: function () {},
     })
 }
-
 function mbAjaxLogin(email, password) {
     jq.ajax({
         url: mb_ajax.ajaxurl,

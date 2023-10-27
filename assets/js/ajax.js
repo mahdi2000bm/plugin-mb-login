@@ -98,16 +98,10 @@ function mbAjaxLogin(email, password) {
             remember_me : true
         },
         beforeSend: function () {
-            //
+            jq('#login').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
             if (response.success) {
-                Toastify({
-                    text: response.message,
-                    className: "success",
-                    duration: 2000,
-                }).showToast();
-
                 setTimeout(function () {
                     window.location.href = document.documentURI;
                 }, 2000);
@@ -115,11 +109,7 @@ function mbAjaxLogin(email, password) {
         },
         error: function (error) {
             if (error.responseJSON.error) {
-                Toastify({
-                    text: error.responseJSON.message,
-                    className: "error",
-                    duration: 2000,
-                }).showToast();
+                console.log(error.responseJSON)
             }
         },
         complete: function () {},

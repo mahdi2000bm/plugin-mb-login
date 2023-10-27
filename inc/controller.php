@@ -54,9 +54,9 @@ function mb_login_via_password() {
 	$sign_status = wp_signon($certs, false);
 
 	if (! is_wp_error($sign_status))
-		wp_send_json(json_encode($sign_status), 200);
+		mb_response(200, 'redirect');
 
-	wp_send_json(json_encode($sign_status), 200);
+	mb_response(403, 'stay');
 }
 
 

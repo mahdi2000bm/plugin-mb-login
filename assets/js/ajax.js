@@ -101,20 +101,19 @@ function mbAjaxLogin(email, password) {
             jq('#login').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
-            Toastify({
-                text: error.responseJSON.message,
-                className: "error",
-                duration: 2000,
-            }).showToast();
+            // Toastify({
+            //     text: response.responseJSON.message,
+            //     className: "error",
+            //     duration: 2000,
+            // }).showToast();
         },
         error: function (error) {
             jq('#login').html('ورود');
-
-            Toastify({
-                text: error.responseJSON.message,
-                className: "error",
-                duration: 2000,
-            }).showToast();
+            // Toastify({
+            //     text: error.responseJSON.message,
+            //     className: "error",
+            //     duration: 2000,
+            // }).showToast();
         },
         complete: function () {
             setTimeout(function () {

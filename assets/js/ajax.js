@@ -106,9 +106,13 @@ function mbAjaxLogin(email, password) {
             //     className: "error",
             //     duration: 2000,
             // }).showToast();
+
+            // Redirect in panel
+            setTimeout(function () {
+                window.location.href = document.documentURI;
+            }, 2000);
         },
         error: function (error) {
-            jq('#login').html('ورود');
             // Toastify({
             //     text: error.responseJSON.message,
             //     className: "error",
@@ -116,9 +120,7 @@ function mbAjaxLogin(email, password) {
             // }).showToast();
         },
         complete: function () {
-            setTimeout(function () {
-                window.location.href = document.documentURI;
-            }, 2000);
+            jq('#login').html('ورود');
         },
     })
 }

@@ -102,7 +102,7 @@ function mbAjaxLogin(email, password) {
         },
         success: function (response) {
             console.log(response)
-            if (response.success) {
+            if (response.action === "redirect") {
                 setTimeout(function () {
                     window.location.href = document.documentURI;
                 }, 2000);

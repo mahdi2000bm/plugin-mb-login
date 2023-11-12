@@ -108,7 +108,12 @@ function mbAjaxLogin(email, password) {
             }
         },
         error: function (error) {
-            console.log(error)
+            Toastify({
+                text: error.responseJSON.message,
+                className: "error",
+                duration: 2000,
+            }).showToast();
+
             jq('#login').html('ورود');
         },
         complete: function () {},

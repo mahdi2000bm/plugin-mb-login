@@ -113,9 +113,9 @@ function mbAjaxLogin(email, password) {
                 className: "error",
                 duration: 2000,
             }).showToast();
-
+        },
+        complete: function () {
             jq('#login').html('ورود');
         },
-        complete: function () {},
     })
 }

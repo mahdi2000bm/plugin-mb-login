@@ -108,9 +108,8 @@ function mbAjaxLogin(email, password) {
             }
         },
         error: function (error) {
-            if (error.responseJSON.error) {
-                console.log(error.responseJSON)
-            }
+            console.log(error)
+            jq('#login').html('ورود');
         },
         complete: function () {},
     })

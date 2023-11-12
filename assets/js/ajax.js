@@ -101,6 +101,7 @@ function mbAjaxLogin(email, password) {
             jq('#login').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
+            console.log(response)
             if (response.success) {
                 setTimeout(function () {
                     window.location.href = document.documentURI;

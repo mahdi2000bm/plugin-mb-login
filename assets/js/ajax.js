@@ -101,14 +101,15 @@ function mbAjaxLogin(email, password) {
             jq('#login').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
-            console.log(response)
-            if (response.action === "redirect") {
-                setTimeout(function () {
-                    window.location.href = document.documentURI;
-                }, 2000);
-            }
+            Toastify({
+                text: error.responseJSON.message,
+                className: "error",
+                duration: 2000,
+            }).showToast();
         },
         error: function (error) {
+            jq('#login').html('ورود');
+
             Toastify({
                 text: error.responseJSON.message,
                 className: "error",
@@ -116,7 +117,9 @@ function mbAjaxLogin(email, password) {
             }).showToast();
         },
         complete: function () {
-            jq('#login').html('ورود');
+            setTimeout(function () {
+                window.location.href = document.documentURI;
+            }, 2000);
         },
     })
 }

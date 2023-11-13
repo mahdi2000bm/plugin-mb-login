@@ -108,9 +108,8 @@ function mbAjaxLogin(email, password) {
             // }).showToast();
 
             // Redirect in panel
-            setTimeout(function () {
-                window.location.href = document.documentURI;
-            }, 800);
+
+            window.location.href = document.documentURI;
         },
         error: function (error) {
             // Toastify({
@@ -118,6 +117,7 @@ function mbAjaxLogin(email, password) {
             //     className: "error",
             //     duration: 2000,
             // }).showToast();
+            responseView("inputPassword", 400, error.responseJSON.message);
         },
         complete: function () {
             jq('#login').html('ورود');

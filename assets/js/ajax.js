@@ -101,14 +101,14 @@ function mbAjaxLogin(email, password) {
             jq('#login').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
+            console.log(response)
             Toastify({
-                text: response.responseJSON.message,
-                className: "error",
+                text: response.message,
+                className: "success",
                 duration: 2000,
             }).showToast();
 
             // Redirect in panel
-
             window.location.href = document.documentURI;
         },
         error: function (error) {

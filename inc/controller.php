@@ -55,10 +55,10 @@ function mb_login_via_password() {
 
 	if (! is_wp_error($sign_status)) {
 		wp_set_current_user($user->ID, $user_login);
-		mb_response(403, 'stay');
+		mb_response(200, 'redirect');
 	}
 
-	mb_response(200, 'redirect');
+	mb_response(403, 'stay');
 }
 
 

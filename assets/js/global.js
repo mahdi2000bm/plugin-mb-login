@@ -162,7 +162,7 @@ jq(document).ready(function($) {
     });
 
     // When user click to back step
-    $('span.user-email').on('click', function (event) {
-        showNextSectionStep("register-tab", "home");
+    $('span.edit-email').on('click', function () {
+        showNextSectionStep("login-tab", "home");
     })
 })

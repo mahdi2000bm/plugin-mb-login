@@ -108,7 +108,7 @@ function mbAjaxLogin(email, password) {
             }).showToast();
 
             // Redirect in panel
-            window.location.href = document.documentURI;
+            window.location.href = "/";
         },
         error: function (error) {
             Toastify({

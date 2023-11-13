@@ -101,22 +101,22 @@ function mbAjaxLogin(email, password) {
             jq('#login').html('<span class="is-loading-state"></span>');
         },
         success: function (response) {
-            // Toastify({
-            //     text: response.responseJSON.message,
-            //     className: "error",
-            //     duration: 2000,
-            // }).showToast();
+            Toastify({
+                text: response.responseJSON.message,
+                className: "error",
+                duration: 2000,
+            }).showToast();
 
             // Redirect in panel
 
             window.location.href = document.documentURI;
         },
         error: function (error) {
-            // Toastify({
-            //     text: error.responseJSON.message,
-            //     className: "error",
-            //     duration: 2000,
-            // }).showToast();
+            Toastify({
+                text: error.responseJSON.message,
+                className: "error",
+                duration: 2000,
+            }).showToast();
 
             responseView("inputPassword", 400, error.responseJSON.message);
         },

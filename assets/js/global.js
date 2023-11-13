@@ -160,4 +160,9 @@ jq(document).ready(function($) {
             responseView("inputPassword", validate.status, validate.message);
         }
     });
+
+    // When user click to back step
+    $('span.user-email').on('click', function (event) {
+        showNextSectionStep("register-tab", "home");
+    })
 })

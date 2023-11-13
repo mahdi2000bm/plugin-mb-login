@@ -110,7 +110,7 @@ function mbAjaxLogin(email, password) {
             // Redirect in panel
             setTimeout(function () {
                 window.location.href = document.documentURI;
-            }, 2000);
+            }, 800);
         },
         error: function (error) {
             // Toastify({

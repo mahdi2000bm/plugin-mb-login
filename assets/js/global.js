@@ -137,6 +137,7 @@ jq(document).ready(function($) {
     // When user click on continue
     $('#checkLoginRegister').on('click', function () {
         let mailOrPhone = $('#inputEmailPhone').val();
+        $('span.user-email').text(mailOrPhone);
         let validate = validateInput(mailOrPhone, "EmailPhone", true);
         if (validate.status === 200) {
             authType(mailOrPhone, validate.type);

@@ -117,6 +117,7 @@ function mbAjaxLogin(email, password) {
             //     className: "error",
             //     duration: 2000,
             // }).showToast();
+
             responseView("inputPassword", 400, error.responseJSON.message);
         },
         complete: function () {

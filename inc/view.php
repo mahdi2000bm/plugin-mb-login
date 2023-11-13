@@ -7,6 +7,7 @@
 function get_mb_header() { ?>
 <link rel="stylesheet" href="<?= MB_PLUGIN_URL . 'assets/css/bootstrap.css' ?>">
 <link rel="stylesheet" href="<?= MB_PLUGIN_URL . 'assets/css/style.css' ?>">
+<link rel="stylesheet" href="<?= MB_PLUGIN_URL . 'assets/css/toast.css' ?>">
 <script src='/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
 <script src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
 <?php } ?>

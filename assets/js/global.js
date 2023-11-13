@@ -163,6 +163,7 @@ jq(document).ready(function($) {
 
     // When user click to back step
     $('a.edit-email').on('click', function () {
-        showNextSectionStep("login-tab", "home");
+        let id = $('.tab-pane.in.active').attr('id');
+        showNextSectionStep(id, "home");
     })
 })

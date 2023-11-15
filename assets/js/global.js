@@ -164,7 +164,7 @@ jq(document).ready(function($) {
     });
 
     // When user submit for register
-    $('form.form-register').on('submit', function (event) {
+    $('form.register-form').on('submit', function (event) {
         event.preventDefault();
 
         let firstname = $('#firstname').val();

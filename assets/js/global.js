@@ -40,6 +40,8 @@ function validateInput (input, type, require = false) {
         case "Email":
             validate = validateEmail(input);
             break;
+        default:
+            break
     }
 
     return validate;
@@ -158,6 +160,21 @@ jq(document).ready(function($) {
             mbAjaxLogin(email, password);
         } else {
             responseView("inputPassword", validate.status, validate.message);
+        }
+    });
+
+    // When user submit for register
+    $('form.form-register').on('submit', function (event) {
+        event.preventDefault();
+
+        let firstname = $('#firstname').val();
+        let lastname = $('#lastname').val();
+
+        let validate = validateInput(firstname, "text", true);
+        if (validate.status === 200) {
+            console.log("Ok")
+        } else {
+            responseView("firstname", validate.status, validate.message);
         }
     });
 

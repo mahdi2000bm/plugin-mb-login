@@ -58,7 +58,7 @@ function mb_login_via_password() {
 		mb_response(200, 'redirect');
 	}
 
-	mb_response(403, 'stay');
+	mb_response(400, 'stay');
 }
 
 

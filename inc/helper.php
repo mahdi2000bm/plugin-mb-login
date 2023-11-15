@@ -35,9 +35,10 @@ function mb_check_nonce () {
 function mb_response($status, $action) {
 
 	$message = match ($status) {
-		403 => "دسترسی رد شد.",
 		200 => "موفقیت آمیز بود.",
+		400 => "رمز عبور نادرست است!",
 		401 => "مقادیر ورودی نادرست است.",
+		403 => "دسترسی رد شد.",
 		default => 'خطای ناشناس.',
 	};
 

@@ -13,6 +13,12 @@ function get_mb_header() { ?>
 <?php } ?>
 
 <?php
+function create_login_template() {
+    $page_template = get_template_directory();
+    echo $page_template;
+} ?>
+
+<?php
 /**
  * Footer resources
  *

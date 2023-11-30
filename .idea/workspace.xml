@@ -1,7 +1,542 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="62f72625-7afa-4adc-a107-b90acc00ccf0" name="Changes" comment="" />
+    <list default="true" id="62f72625-7afa-4adc-a107-b90acc00ccf0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/view/template-login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/templates/base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/templates/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/plugin-mb-login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/plugin-mb-login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/YekanBakhBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/YekanBakhBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/YekanBakhHeavy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/YekanBakhHeavy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/YekanBakhMedium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/YekanBakhMedium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/iranyekanregular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/iranyekanregular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/iranyekanregular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/boot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/page-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/css/style.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/css/style.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_UltraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_UltraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_UltraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/fonts/IRANSansWeb_UltraLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/IRANSansWeb_UltraLight.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/reset-password/new-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/reset-password/new-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/reset-password/reset-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/reset-password/reset-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/sign-in/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/sign-in/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/sign-in/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/sign-in/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/sign-in/two-factor.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/sign-in/two-factor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/sign-up/coming-soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/sign-up/coming-soon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/sign-up/free-trial.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/sign-up/free-trial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/authentication/sign-up/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/authentication/sign-up/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/custom/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/custom/widgets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/scripts.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/scripts.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/js/widgets.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/assets/js/widgets.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/auth/bg-en.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/auth/bg-en.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/auth/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/auth/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/001-boy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/001-boy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/002-girl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/002-girl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/003-girl-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/003-girl-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/004-boy-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/004-boy-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/005-girl-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/005-girl-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/006-girl-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/006-girl-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/007-boy-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/007-boy-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/008-boy-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/008-boy-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/009-boy-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/009-boy-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/010-girl-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/010-girl-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/011-boy-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/011-boy-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/012-girl-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/012-girl-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/013-girl-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/013-girl-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/014-girl-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/014-girl-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/015-boy-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/015-boy-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/016-boy-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/016-boy-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/017-girl-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/017-girl-8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/018-girl-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/018-girl-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/019-girl-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/019-girl-10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/020-girl-11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/020-girl-11.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/021-boy-8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/021-boy-8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/022-girl-12.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/022-girl-12.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/023-girl-13.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/023-girl-13.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/024-boy-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/024-boy-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/025-girl-14.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/025-girl-14.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/026-boy-10.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/026-boy-10.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/027-girl-15.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/027-girl-15.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/028-girl-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/028-girl-16.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/029-boy-11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/029-boy-11.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/030-girl-17.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/030-girl-17.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/031-boy-12.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/031-boy-12.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/032-boy-13.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/032-boy-13.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/033-girl-18.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/033-girl-18.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/034-boy-14.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/034-boy-14.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/035-boy-15.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/035-boy-15.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/036-girl-19.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/036-girl-19.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/037-girl-20.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/037-girl-20.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/038-boy-16.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/038-boy-16.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/039-girl-21.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/039-girl-21.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/040-boy-17.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/040-boy-17.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/041-girl-22.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/041-girl-22.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/042-girl-23.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/042-girl-23.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/043-boy-18.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/043-boy-18.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/044-boy-19.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/044-boy-19.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/045-boy-20.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/045-boy-20.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/046-girl-24.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/046-girl-24.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/047-girl-25.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/047-girl-25.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/048-boy-21.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/048-boy-21.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/049-boy-22.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/049-boy-22.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/050-girl-26.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/050-girl-26.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/blank-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/blank-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/avatars/blank.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/avatars/blank.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/adidas-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/adidas-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/adidas.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/adidas.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/airbnb-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/airbnb-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/alcatel-mobile-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/alcatel-mobile-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/amara.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/amara.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/amazon-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/amazon-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/amazon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/amazon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/android-wordmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/android-wordmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/angular-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/angular-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/angular-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/angular-icon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/angular-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/angular-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/angular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/angular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/aon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/aon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/apigee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/apigee.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/apple-black-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/apple-black-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/apple-black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/apple-black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/apple-itunes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/apple-itunes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/aries-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/aries-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/asgardia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/asgardia.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/asml-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/asml-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/aspnetzero.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/aspnetzero.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/atica.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/atica.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/audi-11.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/audi-11.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/aven-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/aven-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/aven.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/aven.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/avis-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/avis-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/avocode-inc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/avocode-inc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/balloon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/balloon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/banco-santander-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/banco-santander-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/beats-electronics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/beats-electronics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bebo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bebo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/behance.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/behance.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/biman-airlines-classic-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/biman-airlines-classic-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bookingcom-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bookingcom-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bootstrap-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bootstrap-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bootstrap-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bootstrap-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bootstrap5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bootstrap5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bose.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bose.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bp-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bp-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bp-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bp-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/brantano.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/brantano.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/bride.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/bride.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/british-council-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/british-council-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/brondi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/brondi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/campingaz-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/campingaz-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/canon-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/canon-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/carrols.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/carrols.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/casio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/casio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/caterpillar-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/caterpillar-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/citrix-6002.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/citrix-6002.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/code-lab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/code-lab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/codeigniter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/codeigniter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/comcast.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/comcast.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/conair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/conair.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/costa-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/costa-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/costco-wholesale-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/costco-wholesale-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/css-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/css-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/decathlon-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/decathlon-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/deloitte-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/deloitte-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/depend.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/depend.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/diesel-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/diesel-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/disqus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/disqus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/django-community.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/django-community.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/dribbble-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/dribbble-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/dribbble-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/dribbble-icon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/dribbble-pink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/dribbble-pink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/duolingo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/duolingo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/dynamac.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/dynamac.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/earth-2.0.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/earth-2.0.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ebay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ebay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ember.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ember.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/envato-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/envato-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/envato.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/envato.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/eolic-energy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/eolic-energy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/espacio-urbano.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/espacio-urbano.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/etoys-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/etoys-com.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/facebook-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/facebook-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/facebook-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/facebook-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/facebook-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/facebook-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/facebook-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/facebook-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/facebook-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/facebook-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/farmers-insurance-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/farmers-insurance-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/figma-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/figma-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/foursquare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/foursquare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/fox-hub.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/fox-hub.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/friday-s.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/friday-s.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/fujifilm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/fujifilm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/funding-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/funding-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/gab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/gab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/garmin-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/garmin-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/general-electric.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/general-electric.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/github-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/github-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/github-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/github-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/github-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/github-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/gitlab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/gitlab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/goldline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/goldline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/google-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/google-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/google-photos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/google-photos.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/google-play-store.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/google-play-store.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/google-podcasts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/google-podcasts.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/google-tag-manager.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/google-tag-manager.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/gradiente-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/gradiente-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/gulp-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/gulp-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/gulp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/gulp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/hbo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/hbo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/heavylift.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/heavylift.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/hex-lab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/hex-lab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/hilton-buenos-aires.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/hilton-buenos-aires.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/himel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/himel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/honda-7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/honda-7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/hp-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/hp-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/hp-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/hp-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/hp-hewlett-packard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/hp-hewlett-packard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/html5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/html5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/huggies-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/huggies-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ideaa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ideaa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ikon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ikon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/infography.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/infography.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/instagram-2-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/instagram-2-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/instagram-2016.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/instagram-2016.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/intermarche-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/intermarche-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/invision.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/invision.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/javascript-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/javascript-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/javascript-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/javascript-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/javascript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/javascript.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/jelcz.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/jelcz.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/jfits.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/jfits.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/jquery-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/jquery-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/jquery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/jquery.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/kanba.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/kanba.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/keysight-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/keysight-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/kickstarter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/kickstarter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/komatsu-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/komatsu-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/koni-special.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/koni-special.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/kpmg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/kpmg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/laravel-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/laravel-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/last-fm-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/last-fm-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/layer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/layer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/leaf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/leaf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/leclerc-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/leclerc-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/legrand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/legrand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/leica-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/leica-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/levis.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/levis.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/lg-electronics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/lg-electronics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/lidl-supermarkets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/lidl-supermarkets.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/lighting.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/lighting.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/linkedin-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/linkedin-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/linkedin-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/linkedin-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/linkedin-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/linkedin-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/liva.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/liva.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/lloyds-of-london-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/lloyds-of-london-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/mastercard-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/mastercard-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/maxis-communications-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/maxis-communications-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/metro-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/metro-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/metro-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/metro-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/metro-by-t-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/metro-by-t-mobile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/microsoft-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/microsoft-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/miller-6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/miller-6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/minol.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/minol.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/mnd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/mnd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/msn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/msn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/mysql-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/mysql-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/nasa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/nasa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/nestle-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/nestle-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/new-beko-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/new-beko-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/nike-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/nike-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/nirastate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/nirastate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/node-sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/node-sass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/noht.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/noht.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/npm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/npm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ocaml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ocaml.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/oger-tours.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/oger-tours.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/origin-4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/origin-4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/paypie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/paypie.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/pinterest-p.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/pinterest-p.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/pinterest.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/pinterest.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/plurk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/plurk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/puma-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/puma-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/python-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/python-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/quilosa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/quilosa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/react-native-firebase-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/react-native-firebase-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/react-router.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/react-router.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/recycling.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/recycling.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/redbull.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/redbull.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/reddit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/reddit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/rgb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/rgb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/sass-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/sass-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/seat-pg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/seat-pg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/sentry-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/sentry-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/shell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/shell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/siplast.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/siplast.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/slack-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/slack-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/slack-new-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/slack-new-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/slack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/smartphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/smartphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/snowbird.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/snowbird.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/solaytic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/solaytic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/soriana-logo-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/soriana-logo-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/sparkpost.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/sparkpost.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/spotify-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/spotify-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/spotify-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/spotify-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/spotify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/spotify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/spring-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/spring-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/sprint-nextel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/sprint-nextel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/stabilo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/stabilo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/strava-wordmark-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/strava-wordmark-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/stream-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/stream-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/super-cuts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/super-cuts.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/suzuki-motor-corporation-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/suzuki-motor-corporation-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/suzuki.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/suzuki.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/swarm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/swarm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/syngenta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/syngenta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/telegram-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/telegram-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/telegram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/tempstar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/tempstar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/the-blockchain-group-tbg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/the-blockchain-group-tbg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/thomas-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/thomas-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/thuisbezorgd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/thuisbezorgd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/thule-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/thule-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ticketmaster-5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ticketmaster-5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/tofas-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/tofas-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/tower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/tower.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/treva-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/treva-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/treva.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/treva.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/trimble-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/trimble-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/trivago.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/trivago.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/truman.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/truman.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/tumblr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/tumblr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/tvit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/tvit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/twitch-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/twitch-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/twitch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/twitch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/twitter-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/twitter-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/typescript-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/typescript-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/unilever-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/unilever-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/university-of-cambridge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/university-of-cambridge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/urw-software.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/urw-software.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/velocity-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/velocity-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/verizon-2015.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/verizon-2015.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/vimeo-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/vimeo-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/vimeo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/vimeo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/visa-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/visa-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/visa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/visa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/vodafone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/vodafone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/volicity-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/volicity-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/vue-9.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/vue-9.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/vype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/vype.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/webasto-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/webasto-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/webpack-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/webpack-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/webpack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/webpack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/west-marine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/west-marine.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/worth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/worth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/xing-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/xing-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/youtube-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/youtube-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/youtube-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/youtube-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/youtube-play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/youtube-play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/ziprecruiter-blacktext.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/ziprecruiter-blacktext.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/brand-logos/zurich-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/brand-logos/zurich-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/dribbble.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/dribbble.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/media/svg/social-logos/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/media/svg/social-logos/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/ckeditor/ckeditor-balloon-block.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/ckeditor/ckeditor-balloon-block.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/ckeditor/ckeditor-balloon.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/ckeditor/ckeditor-balloon.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/ckeditor/ckeditor-classic.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/ckeditor/ckeditor-document.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/ckeditor/ckeditor-document.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/ckeditor/ckeditor-inline.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/ckeditor/ckeditor-inline.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/cookiealert/cookiealert.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/cookiealert/cookiealert.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/cookiealert/cookiealert.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/cookiealert/cookiealert.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/cookiealert/cookiealert.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/cookiealert/cookiealert.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/cropper/cropper.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/cropper/cropper.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/cropper/cropper.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/cropper/cropper.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/cropper/cropper.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/cropper/cropper.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/datatables/datatables.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/datatables/datatables.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/datatables/datatables.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/datatables/datatables.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/datatables/datatables.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/datatables/datatables.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/draggable/draggable.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/draggable/draggable.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/flotcharts/flotcharts.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/flotcharts/flotcharts.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/formrepeater/formrepeater.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/formrepeater/formrepeater.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/fslightbox/fslightbox.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/fslightbox/fslightbox.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/fullcalendar/fullcalendar.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/fullcalendar/fullcalendar.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jkanban/jkanban.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jkanban/jkanban.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jkanban/jkanban.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jkanban/jkanban.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jkanban/jkanban.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jkanban/jkanban.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jstree/images/jstree/32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jstree/images/jstree/32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jstree/images/jstree/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jstree/images/jstree/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jstree/jstree.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jstree/jstree.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jstree/jstree.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jstree/jstree.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/jstree/jstree.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/jstree/jstree.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/leaflet/leaflet.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/leaflet/leaflet.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/leaflet/leaflet.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/leaflet/leaflet.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/leaflet/leaflet.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/leaflet/leaflet.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/prismjs/prismjs.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/prismjs/prismjs.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/prismjs/prismjs.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/prismjs/prismjs.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/prismjs/prismjs.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/prismjs/prismjs.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/dark/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/dark/content.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/dark/content.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/dark/content.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/dark/content.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/default/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/default/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/default/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/default/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/default/content.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/default/content.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/default/content.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/default/content.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/document/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/document/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/document/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/document/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/document/content.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/document/content.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/document/content.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/document/content.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/writer/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/writer/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/writer/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/writer/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/writer/content.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/writer/content.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/content/writer/content.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/content/writer/content.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.inline.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.mobile.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/content.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.mobile.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide-dark/skin.shadowdom.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.inline.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.mobile.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/content.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/content.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.mobile.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.min.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.min.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/skins/ui/oxide/skin.shadowdom.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/tinymce/tinymce.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/tinymce/tinymce.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/typedjs/typedjs.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/typedjs/typedjs.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/vis-timeline/vis-timeline.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/vis-timeline/vis-timeline.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/custom/vis-timeline/vis-timeline.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/custom/vis-timeline/vis-timeline.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-v4compatibility.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-v4compatibility.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/@fortawesome/fa-v4compatibility.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/@fortawesome/fa-v4compatibility.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/bootstrap-icons/bootstrap-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/bootstrap-icons/bootstrap-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/bootstrap-icons/bootstrap-icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/bootstrap-icons/bootstrap-icons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-duotone.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-duotone.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-duotone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-duotone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-duotone.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-duotone.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-duotone.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-outline.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-outline.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-outline.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-outline.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-outline.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-outline.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-solid.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-solid.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-solid.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-solid.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/keenicons/keenicons-solid.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/keenicons/keenicons-solid.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/fonts/line-awesome/la-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/fonts/line-awesome/la-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/plugins.bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/plugins.bundle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/plugins.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/plugins.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/assets/plugins/global/plugins.bundle.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/plugins/global/plugins.bundle.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/new-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/new-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/parts/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/parts/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/parts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/parts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/parts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/parts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/reset-password.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/sign-in.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/sign-in.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/sign-up.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/sign-up.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/login/two-factor.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login/two-factor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/01/mb-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/01/mb-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/01/mb-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/01/mb-register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/02/mb-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/02/mb-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/templates/02/mb-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/templates/02/mb-register.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +544,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="DrupalConfiguration">
+    <drupalPath />
+  </component>
+  <component name="JoomlaConfiguration">
+    <joomlaConfigPath />
+    <joomlaPath />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,10 +565,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/wordpressExp/wp-content/plugins/plugin-mb-login&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/wordpress/wp-content/plugins/plugin-mb-login&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\plugin-mb-login\assets\fonts" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\plugin-mb-login\view\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\plugin-mb-login\assets" />
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\plugin-mb-login\assets\css" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,10 +595,19 @@
       <updated>1694887466368</updated>
       <workItem from="1694887468024" duration="3000" />
       <workItem from="1698409251751" duration="13000" />
+      <workItem from="1700923933392" duration="10671000" />
+      <workItem from="1701114166819" duration="10000" />
+      <workItem from="1701324812198" duration="19000" />
+      <workItem from="1701375176854" duration="1397000" />
+      <workItem from="1701376640188" duration="24000" />
+      <workItem from="1701376679429" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>C:\xampp\htdocs\wordpress</wordpressPath>
   </component>
 </project>

@@ -17,3 +17,4 @@ define('MB_PLUGIN_URL', plugin_dir_url(__FILE__));
 // Bootstrap
 require_once MB_PLUGIN_DIR . "inc/boot.php";
 
+register_activation_hook(__FILE__, 'mb_activate');

@@ -15,13 +15,15 @@ require_once MB_PLUGIN_DIR . 'inc/controller.php';
 // Client side
 // require_once MB_PLUGIN_DIR . 'inc/assets.php';
 require_once MB_PLUGIN_DIR . 'inc/view.php';
+require_once MB_PLUGIN_DIR . 'view/page-login.php';
 
 /**
- * Activate the plugin.
+ * Hook plugin activation
+ *
+ * @return void
  */
 function mb_activate() {
-	// create template doc in active theme
-	create_login_template();
+    // Create template doc in active theme
+    mb_create_login_template();
 }
 
-register_activation_hook( __FILE__, 'mb_activate' );

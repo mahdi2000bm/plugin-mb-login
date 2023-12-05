@@ -49,7 +49,7 @@
                                 <!--begin::Actions-->
                                 <div class="d-flex flex-stack">
                                     <!--begin::ارسال-->
-                                    <button id="kt_sign_in_submit" class="btn btn-primary me-2 flex-shrink-0">
+                                    <button id="checkLoginRegister" class="btn btn-primary me-2 flex-shrink-0">
                                         <!--begin::Indicator label-->
                                         <span class="indicator-label" data-kt-translate="login-submit">ادامه</span>
                                         <!--end::Indicator label-->
@@ -92,6 +92,9 @@
             <!--begin::Body-->
         </div>
         <!--end::Authentication - ورود-->
+        <!--begin::Custom Javascript(used for this page only)-->
+        <script src="<?= MB_PLUGIN_URL ?>assets/js/authentication/sign-in/general.js"></script>
+        <!--end::Custom Javascript-->
 <?php include "templates/footer.php" ?>
 <?php }
 add_shortcode('mb-page-login','wp_mb_page_login');
